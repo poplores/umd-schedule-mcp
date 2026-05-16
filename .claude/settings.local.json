@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__umd-schedule__get_next_class",
+      "mcp__umd-schedule__get_classes_for_day"
+    ]
+  }
+}

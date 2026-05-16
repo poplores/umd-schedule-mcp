@@ -1,0 +1,96 @@
+# UMD class schedule, Spring 2026
+# Edit this each semester. Times are in 24-hour format, in America/New_York.
+#
+# Days: M T W Th F (use Th for Thursday so it's unambiguous)
+# A class with multiple meeting patterns (Lec + Dis) gets multiple entries.
+
+semester: Spring 2026
+timezone: America/New_York
+
+# Adjust these to match the actual semester start/end from registrar.umd.edu
+term_start: 2026-01-26
+term_end:   2026-05-12
+
+classes:
+  - course: CHEM 135
+    section: "3129"
+    type: Lec
+    days: [M, W, F]
+    start: "15:00"
+    end:   "15:50"
+    location: CHM 1407
+
+  - course: CHEM 135
+    section: "3129"
+    type: Dis
+    days: [T]
+    start: "16:30"
+    end:   "17:20"
+    location: PHY 2106
+
+  - course: CMSC 131
+    section: "0104"
+    type: Lec
+    days: [M, W, F]
+    start: "12:00"
+    end:   "12:50"
+    location: MMH 1400
+
+  - course: CMSC 131
+    section: "0104"
+    type: Dis
+    days: [T, Th]
+    start: "15:00"
+    end:   "15:50"
+    location: CSI 2118
+
+  - course: COMM 107
+    section: "1501"
+    type: Lec
+    days: [M, W, F]
+    start: "09:00"
+    end:   "09:50"
+    location: PLS 1146
+
+  - course: ENES 210
+    section: "0103"
+    type: Lec
+    days: [M]
+    start: "13:00"
+    end:   "13:50"
+    location: ESJ 2204
+
+  - course: LGBT 200
+    section: "0101"
+    type: Lec
+    days: [M, W, F]
+    start: "10:00"
+    end:   "10:50"
+    location: WDS 1102
+
+  - course: UNIV 108
+    section: "0163"
+    type: Lec
+    days: [M]
+    start: "16:00"
+    end:   "16:50"
+    location: TWS 1100
+
+  - course: UNIV 108
+    section: "0163"
+    type: Dis
+    days: [W]
+    start: "16:00"
+    end:   "16:50"
+    location: JMZ 1122
+
+finals:
+  - course: CHEM 135
+    date: 2026-05-13
+    time: "16:00"
+    location: CHM 1407
+
+  - course: CMSC 131
+    date: 2026-05-13
+    time: "18:30"
+    location: CSI 1115
